@@ -146,8 +146,19 @@
     Copyright @ 2020 <br />
     Address: 11A, Datun Road, Chaoyang District, Beijing 100101, China<br />
     </span>
+	    
+	< script type=“text/javascript”>
+	if(localStorage.sum){
+	localStorage.sum=Number(localStorage.sum)+1;
+	}
+	else{
+	localStorage.sum=1;
+	}
+	document.write(“Access：”+localStorage.sum);
     </p>
 
 </div>
 </body>
+
+
 </html>
