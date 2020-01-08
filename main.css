@@ -1,10 +1,9 @@
 body {
-	
 	padding: 0;
 	margin: 0;
 	font-size: 12px;
-	background-image: url("includes/bg_stripe.gif");
-	background-repeat:repeat;
+	/* background-image: url("includes/bg_stripe.gif");
+	background-repeat:repeat; */
 	color:#333333;
 	font-family:'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;
 	text-align:center;
@@ -18,6 +17,13 @@ body {
 #pageframe1 {
 	border:#d0d0d0 0px solid;
 	background-color:#254b6c;
+	width: 900px;
+	margin: 0px auto;
+	text-align:left;
+}
+#pageframe2 {
+	border:#d0d0d0 0px solid;
+	background-color:#e5f1fd;
 	width: 900px;
 	margin: 0px auto;
 	text-align:left;
@@ -57,13 +63,13 @@ body {
 
 /******Main 2-column section of page */
 #main {
-  margin: 0;
+	margin: 0;
 	border:#d0d0d0 0px solid;
 	margin 0 2px;
 	background-color:#254b6c;
 }
 #main1 {
-  margin: 0;
+	margin: 0;
 	border:#d0d0d0 0px solid;
 	margin 0 0px;
 	background-color:#254b6c;
@@ -72,6 +78,36 @@ body {
 .index_intro{width:600px;}
 .index_left {float:left; width:20%;}
 .index_right {float:right; width:70%;}
+
+
+/**** Text style */
+.style1 {
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+  .style2 {
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+  .style3
+  {
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+  .style4
+  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:1.5em;
+	letter-spacing:.05em;
+}
+
 
 /******Wider main column */
 #right {
@@ -82,9 +118,10 @@ body {
 	padding:5px 5px 5px 5px;
 	background-color:#ffffff;
 	min-height: 600px;
-	_height: 600px;
 	height: 100%;
 }
+
+
 /******Skinnier nav column */
 #nav {
 	
@@ -96,7 +133,6 @@ body {
 	color: black;
 	
 }
-
 #nav ul {
 	
 	margin:0;
@@ -130,7 +166,6 @@ body {
 }
 
 
-
 /******Bottom of main section of page */
 #clear {
 	
@@ -144,12 +179,10 @@ body {
 #footer {
 	margin: 0 2px;
 }
-
 .footerlogo {
 	float:left;
 	text-align:left;
 }
-
 .footerlogo a{
 text-decoration:none;
 font:bold 15px "Times New Roman",Times,serif;
@@ -157,11 +190,11 @@ color:254b6c;
 }
 
 .copyright {
-	float:right;
+	float:left;
 	text-align:center;
 	padding: 0 3px 3px 3px;
 	margin: 0px;
-	font-size: 10px;
+	font-size: 12px;
 	color: #254b6c;
 	line-height:11px;
 }
