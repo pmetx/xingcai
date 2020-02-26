@@ -183,10 +183,12 @@
     <!-- <span align="right"> -->
     <div style="float:right">
       <!-- <img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits"> -->
+      <script>
       let targetUrl = window.location.href;
       $.ajax('https://hitcounter.pythonanywhere.com/count',{
           data:{url: targetUrl},
       }).then(count => console.log('Count:' + count));
+      </script>
     </div>
   </div>
 
