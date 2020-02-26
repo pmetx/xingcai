@@ -182,15 +182,12 @@
     </span>
     <!-- <span align="right"> -->
     <div style="float:right">
-      <img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits">
+      <!-- <img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits"> -->
+      let targetUrl = window.location.href;
+      $.ajax('https://hitcounter.pythonanywhere.com/count',{
+          data:{url: targetUrl},
+      }).then(count => console.log('Count:' + count));
     </div>
-      <!-- <div id="sfchge42p7cwdyng4u22yhbb784y1rztlxs" align="right"></div>
-      <script type="text/javascript"
-        src="https://counter1.wheredoyoucomefrom.ovh/private/counter.js?c=hge42p7cwdyng4u22yhbb784y1rztlxs&down=async"
-        async></script><noscript><a href="https://www.freecounterstat.com" title="web counters"><img
-            src="https://counter1.wheredoyoucomefrom.ovh/private/freecounterstat.php?c=hge42p7cwdyng4u22yhbb784y1rztlxs"
-            border="0" title="web counters" alt="web counters"></a></noscript> -->
-    <!-- </span> -->
   </div>
 
 </body>
